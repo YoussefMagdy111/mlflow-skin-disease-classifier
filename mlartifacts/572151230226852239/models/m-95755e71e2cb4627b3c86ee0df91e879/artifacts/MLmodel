@@ -1,0 +1,59 @@
+artifact_path: mlflow-artifacts:/572151230226852239/models/m-95755e71e2cb4627b3c86ee0df91e879/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.18
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+is_signature_from_type_hint: false
+mlflow_version: 3.1.1
+model_id: m-95755e71e2cb4627b3c86ee0df91e879
+model_size_bytes: 928272
+model_uuid: m-95755e71e2cb4627b3c86ee0df91e879
+prompts: null
+run_id: 029459a25ed74303842776ac6aaadd5e
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "long", "name": "erythema", "required": true}, {"type": "long",
+    "name": "scaling", "required": true}, {"type": "long", "name": "definite_borders",
+    "required": true}, {"type": "long", "name": "itching", "required": true}, {"type":
+    "long", "name": "koebner_phenomenon", "required": true}, {"type": "long", "name":
+    "polygonal_papules", "required": true}, {"type": "long", "name": "follicular_papules",
+    "required": true}, {"type": "long", "name": "oral_mucosal_involvement", "required":
+    true}, {"type": "long", "name": "knee_and_elbow_involvement", "required": true},
+    {"type": "long", "name": "scalp_involvement", "required": true}, {"type": "long",
+    "name": "family_history", "required": true}, {"type": "long", "name": "melanin_incontinence",
+    "required": true}, {"type": "long", "name": "eosinophils_infiltrate", "required":
+    true}, {"type": "long", "name": "PNL_infiltrate", "required": true}, {"type":
+    "long", "name": "fibrosis_papillary_dermis", "required": true}, {"type": "long",
+    "name": "exocytosis", "required": true}, {"type": "long", "name": "acanthosis",
+    "required": true}, {"type": "long", "name": "hyperkeratosis", "required": true},
+    {"type": "long", "name": "parakeratosis", "required": true}, {"type": "long",
+    "name": "clubbing_rete_ridges", "required": true}, {"type": "long", "name": "elongation_rete_ridges",
+    "required": true}, {"type": "long", "name": "thinning_suprapapillary_epidermis",
+    "required": true}, {"type": "long", "name": "spongiform_pustule", "required":
+    true}, {"type": "long", "name": "munro_microabcess", "required": true}, {"type":
+    "long", "name": "focal_hypergranulosis", "required": true}, {"type": "long", "name":
+    "disappearance_granular_layer", "required": true}, {"type": "long", "name": "vacuolisation_damage_basal_layer",
+    "required": true}, {"type": "long", "name": "spongiosis", "required": true}, {"type":
+    "long", "name": "saw_tooth_appearance_retes", "required": true}, {"type": "long",
+    "name": "follicular_horn_plug", "required": true}, {"type": "long", "name": "perifollicular_parakeratosis",
+    "required": true}, {"type": "long", "name": "inflammatory_mononuclear_infiltrate",
+    "required": true}, {"type": "long", "name": "band_like_infiltrate", "required":
+    true}, {"type": "string", "name": "age", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-07-11 09:15:13.444990'

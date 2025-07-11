@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/572151230226852239
+creation_time: 1752224532581
+experiment_id: '572151230226852239'
+last_update_time: 1752224532581
+lifecycle_stage: active
+name: SkinDiseaseClassifier

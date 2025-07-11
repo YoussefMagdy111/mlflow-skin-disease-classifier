@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/572151230226852239/b7848d77c13c445a8fb0f60b9481f8f2/artifacts
+end_time: 1752225227472
+entry_point_name: ''
+experiment_id: '572151230226852239'
+lifecycle_stage: active
+run_id: b7848d77c13c445a8fb0f60b9481f8f2
+run_name: smiling-squirrel-846
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752225217858
+status: 3
+tags: []
+user_id: m

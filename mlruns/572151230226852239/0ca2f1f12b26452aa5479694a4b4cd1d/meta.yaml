@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/572151230226852239/0ca2f1f12b26452aa5479694a4b4cd1d/artifacts
+deleted_time: 1752225247599
+end_time: 1752224889527
+entry_point_name: ''
+experiment_id: '572151230226852239'
+lifecycle_stage: deleted
+run_id: 0ca2f1f12b26452aa5479694a4b4cd1d
+run_name: loud-finch-338
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752224858872
+status: 3
+tags: []
+user_id: m
